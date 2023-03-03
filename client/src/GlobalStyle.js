@@ -61,6 +61,10 @@ const GlobalStyle = createGlobalStyle`
             font-size: 1.125rem;
         }
     }
+
+    a {
+        text-decoration: none;
+    }
 `
 
 export default GlobalStyle
