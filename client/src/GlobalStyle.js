@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
         font-weight: 800;
         line-height: 3.15rem;
 
-        @media ${Device.desktop} {
+        @media ${Device.laptopL} {
             font-size: 3.5rem;
             line-height: 4.41rem;
         }
@@ -35,7 +35,7 @@ const GlobalStyle = createGlobalStyle`
         line-height: 2rem;
         font-weight: 800;
 
-        @media ${Device.desktop} {
+        @media ${Device.laptopL} {
             font-size: 2rem;
             line-height: 2.5rem;
         }
@@ -47,7 +47,7 @@ const GlobalStyle = createGlobalStyle`
         line-height: 1.58rem;
         font-weight: 800;
 
-        @media ${Device.desktop} {
+        @media ${Device.laptopL} {
             font-size: 1.5rem;
             line-height: 1.89rem;
         }
@@ -57,7 +57,7 @@ const GlobalStyle = createGlobalStyle`
         font-weight: 500;
         color: var(--grey);
 
-        @media ${Device.tablet} {
+        @media ${Device.laptopL} {
             font-size: 1.125rem;
         }
     }
