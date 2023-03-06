@@ -15,7 +15,7 @@ export const HeroContainer = styled.section`
     }
 
     @media ${Device.laptopL} {
-        padding: 154px 165px;
+        padding: 154px 165px 200px 165px;
         margin: 0;
     }
 

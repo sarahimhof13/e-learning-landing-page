@@ -14,6 +14,7 @@ export const Button1 = styled.button`
     &:hover {
         background-color: var(--purple-grey);
         transition: 0.2s;
+        cursor: pointer;
     }
 
     @media ${Device.laptopL} {
@@ -36,6 +37,7 @@ export const Button2 = styled.button`
     &:hover {
         opacity: 0.5;
         transition: 0.2s;
+        cursor: pointer;
     }
 
     @media ${Device.laptopL} {
@@ -58,6 +60,7 @@ export const Button3 = styled.button`
     &:hover {
         opacity: 0.5;
         transition: 0.2s;
+        cursor: pointer;
     }
 
     @media ${Device.laptopL} {

@@ -1,4 +1,4 @@
-import { CardContainer, TitleCardContainer } from "./Card.styled";
+import { TitleCardContainer } from "./Card.styled";
 
 const TitleCard = () => {
     return ( 

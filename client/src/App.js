@@ -1,4 +1,5 @@
 import Courses from "./Components/Courses/Courses";
+import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import GlobalStyle from "./GlobalStyle";
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Courses/>
+      <Footer/>
     </div>
   );
 }
