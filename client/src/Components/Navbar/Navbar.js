@@ -4,7 +4,7 @@ import { NavContainer } from "./Navbar.styled";
 const Navbar = () => {
     return ( 
         <NavContainer>
-            <a href="#">skilled</a>
+            <a href="/">skilled</a>
             <Button1>Get Started</Button1>
         </NavContainer>
      );
