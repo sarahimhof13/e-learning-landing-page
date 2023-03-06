@@ -5,7 +5,19 @@ export const HeroContainer = styled.section`
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 38px 16px 46px 16px;
+    margin: 38px 16px 0 16px;
+
+    @media ${Device.tablet} {
+        margin: 0 0 135px 16px;
+        padding: 75px 39px;
+        overflow-x: clip;
+        flex-direction: row;
+    }
+
+    @media ${Device.laptopL} {
+        padding: 154px 165px;
+        margin: 0;
+    }
 
     & h1 {
         margin-bottom: 25px;
@@ -21,18 +33,6 @@ export const HeroContainer = styled.section`
         @media ${Device.laptopL} {
             margin-bottom: 40px;
         }
-    }
-
-    @media ${Device.tablet} {
-        margin: 0 0 66px 16px;
-        padding: 75px 39px;
-        overflow-x: clip;
-        flex-direction: row;
-    }
-
-    @media ${Device.laptopL} {
-        padding: 154px 165px;
-        margin: 0;
     }
 `
 

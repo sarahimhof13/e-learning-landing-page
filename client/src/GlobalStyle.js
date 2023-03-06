@@ -44,14 +44,20 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h3 {
-        font-size: 1.25rem;
-        line-height: 1.58rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
         font-weight: 800;
 
         @media ${Device.laptopL} {
             font-size: 1.5rem;
             line-height: 1.89rem;
         }
+    }
+
+    h4 {
+        font-size: 1.25rem;
+        color: var(--navy-blue);
+        font-weight: 800;
     }
 
     p {
