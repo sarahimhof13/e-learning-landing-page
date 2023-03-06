@@ -23,6 +23,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: 2.5rem;
         font-weight: 800;
         line-height: 3.15rem;
+        color: var(--navy-blue);
 
         @media ${Device.laptopL} {
             font-size: 3.5rem;
@@ -55,6 +56,7 @@ const GlobalStyle = createGlobalStyle`
 
     p {
         font-weight: 500;
+        line-height: 1.625rem;
         color: var(--grey);
 
         @media ${Device.laptopL} {

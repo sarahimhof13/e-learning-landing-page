@@ -1,11 +1,13 @@
 import styled from "styled-components";
 import { Device } from "../../Devices";
 
-export const NavContainer = styled.nav`
+export const NavContainer = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 16px;
+    position: relative;
+    z-index: 1;
     
     & a {
         font-size: 1.75rem;
